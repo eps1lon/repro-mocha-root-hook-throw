@@ -1,0 +1,13 @@
+{
+  "name": "mocha-aftereach-throw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^8.0.1"
+  },
+  "scripts": {
+    "test:root-hooks": "mocha root-hooks.test.js",
+    "test:local-hooks": "mocha --no-config local-hooks.test.js"
+  }
+}
