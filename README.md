@@ -1,9 +1,13 @@
+**WARNING**
+This bug is fixed as of `mocha@^8.1.0`.
+The latest commit on master works as expected since it's using `mocha@8.1.0`.
+
 ## Reproduction
 
 ```bash
 $ yarn install
-$ yarn yarn test:root-hooks --watch # passes unexpectedly
-$ yarn yarn test:local-hooks --watch # fails as expected
+$ yarn test:root-hooks --watch # passes unexpectedly
+$ yarn test:local-hooks --watch # fails as expected
 ```
 
 ## Explanation
